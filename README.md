@@ -2,7 +2,7 @@
 
 Dataset Used: ![Food 101 on Kaggle](https://www.kaggle.com/datasets/kmader/food41)
 
-## TO MAKE THIS WORK YOU NEED THE MODEL WHICH IS TOO BIG TOP UPLOAD ON GRADESCOPE/GITHUB
+## TO MAKE THIS WORK YOU NEED THE MODEL WHICH IS TOO BIG TOO UPLOAD ON GRADESCOPE/GITHUB
 
 +++ Instructions for running Flask and this application +++
 
