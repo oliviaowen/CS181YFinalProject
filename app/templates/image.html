@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+ <!doctype html>
+    <form class="upload" method=POST enctype=multipart/form-data>
+      <input type=file id="myfile" name=file><br><br>
+      <label for="myfile" class="custom-file-upload">Choose Picture...</label>
+      <input type=submit value=Upload>
+    {% endblock %}

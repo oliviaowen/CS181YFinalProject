@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <!doctype html>
+    {% if dish %}
+    <h1>Top 10 Restaurants that serve {{dish}}:</h1>
+    {% endif %}
+    <ol type="1" class="list">
+    {% for result in results %}
+    <li><a href={{result[1]}}>{{result[0]}}</a></li>
+    {% endfor %}
+    </ol>
+    <a class="back" href="/">Upload Another Picture</a>
+{% endblock %}
